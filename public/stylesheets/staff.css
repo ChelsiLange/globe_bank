@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 980px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #05d;
+  color: #fff;
+  height: 40px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 980px;
+}
+
+header h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+navigation {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 980px;
+}
+
+navigation ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+#content {
+  min-height: 500px;
+  padding: 0 30px;
+  width: 920px;
+}
+
+footer {
+  background-color: #05d;
+  color: #fff;
+  height: 20px;
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+  width: 940px;
+}
+
+/***** Actions ******/
+
+.actions {
+  margin-bottom: 1em;
+}
+
+/***** Lists *****/
+
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table.list {
+  width: 100%;
+}
+
+table.list tr td {
+  border: 1px solid #999;
+}
+
+table.list tr th {
+  background-color: #05d;
+  border: 1px solid #05d;
+  color: #fff;
+  text-align: left;
+}
+
+/***** Forms *****/
+
+dl {
+  clear: both;
+  margin: 0.5em 0;
+  overflow: hidden; 
+}
+
+dt {
+  float: left;
+  font-weight: bold;
+  width: 125px;
+}
+
+dd {
+  float: left;
+  margin-left: 1rem;
+}
+
+#operations {
+  clear: both;
+  margin: 1em 0 1em 75px;
+}
+
+/******** Errors ********/
+
+.errors {
+  border: 2px solid #f00;
+  color: #f00;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.errors ul {
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
